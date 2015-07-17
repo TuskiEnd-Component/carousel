@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="carousel.css">
+	<script type="text/javascript" src="jquery1.8.3.js"></script>
+	<script type="text/javascript" src="carousel.js"></script>
+</head>
+<body>
+	<div class="banner">
+        <div id="carousel" class="carouselUI">
+        </div>
+    </div>
+    <script type="text/javascript">
+    	$('#carousel').carousel({
+	        "pWidth":"1920",
+	        "cData":[
+	            {src: './img/page/index/banner_one.png', href: './market.html'},
+	            {src: './img/page/index/banner_two.png', href: './market.html'},
+	            {src: './img/page/index/banner_three.png', href: './market.html'},
+	            {src: './img/page/index/banner_four.png', href: './market.html'},
+	            {src: './img/page/index/banner_five.png', href: './market.html'}
+	        ];
+	    });
+    </script>
+</body>
+</html>
