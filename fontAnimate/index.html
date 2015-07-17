@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<script type="text/javascript" src="./js/jquery1.8.3.js"></script>
+	<script type="text/javascript" src="./js/fontAnimate.js"></script>
+	<style type="text/css">
+	.fontAnimate{
+		width: 100px;
+		height: 30px;
+		background-color: red;
+		color: #333;
+		margin-top: 20px;
+	}
+	</style>
+</head>
+<body>
+	<div class="fontAnimate" data-setting='{"autoPlay":false,"num":"5221","speed":10,"growth":"50","height":"30px","split":false}'></div>
+	<div class="fontAnimate" data-setting='{"num":"8000","speed":20,"growth":"600","height":"30px","split":true}'></div>
+	<div class="fontAnimate" data-setting='{"num":"9891","speed":30,"growth":"500","height":"30px","split":true}'></div>
+	<div class="fontAnimate" data-setting='{"num":"65656","speed":50,"growth":"800","height":"30px","split":true}'></div>
+	<script type="text/javascript">
+		$(function(){
+			fontAnimate.init($('.fontAnimate'));
+		});
+	</script>
+</body>
+</html>
